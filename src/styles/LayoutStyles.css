@@ -37,8 +37,36 @@
     background-color: white;
 }
 
-.logo h6{
+.logo h6 {
     font-size: 1.5rem;
     margin: 20px 0px;
     text-align: center;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu-item {
+    margin-top: 30px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item i {
+    font-size: 1.rem;
+    margin: 0 15px;
+}
+
+.active{
+    background-color: white;
+   padding: 10px;
+}
+
+.active a, .active i{
+    color: rgb(51, 1, 1);
 }
